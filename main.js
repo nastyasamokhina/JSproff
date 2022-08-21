@@ -1,10 +1,10 @@
 const products = [
-  {id: 1, title: "ELLERY X M'O CAPSULE", price: "84.00", url: "img/index/product_1.jpg"},
-  {id: 2, title: "ELLERY X M'O CAPSULE", price: "84.00", url: "img/index/product_2.jpg"},
-  {id: 3, title: "ELLERY X M'O CAPSULE", price: "84.00", url: "img/index/product_3.jpg"},
-  {id: 4, title: "ELLERY X M'O CAPSULE", price: "84.00", url: "img/index/product_4.jpg"},
-  {id: 5, title: "ELLERY X M'O CAPSULE", price: "84.00", url: "img/index/product_5.jpg"},
-  {id: 6, title: "ELLERY X M'O CAPSULE", price: "84.00", url: "img/index/product_6.jpg"},
+  {id: 1, title: "ELLERY X M'O CAPSULE", price: 84, url: "img/index/product_1.jpg"},
+  {id: 2, title: "ELLERY X M'O CAPSULE", price: 84, url: "img/index/product_2.jpg"},
+  {id: 3, title: "ELLERY X M'O CAPSULE", price: 100", url: "img/index/product_3.jpg"},
+  {id: 4, title: "ELLERY X M'O CAPSULE", price: 45, url: "img/index/product_4.jpg"},
+  {id: 5, title: "ELLERY X M'O CAPSULE", price: 100, url: "img/index/product_5.jpg"},
+  {id: 6, title: "ELLERY X M'O CAPSULE", price: 150, url: "img/index/product_6.jpg"},
 ];
 
 const renderProduct = (product) => {
