@@ -26,6 +26,7 @@ class ProductList {
     }
   }
 
+ // Метод объекта, который считает стоимость всех товаров
   sumProduct() {
     let productPrice = 0;
     for (let i = 0; i < this.goods.length; i++) {
@@ -35,6 +36,14 @@ class ProductList {
   }
 }
 
+// Для корзины
+// Метод, который добавляет товары в корзину
+// Метод, который удаляет товары из корзины
+// Метод, который считает стоимость товаров в корзине
+// Метод, который оформляет заказ
+// Метод, который отрисовывает окно корзины
+
+
 class ProductItem {
   constructor(product) {
     this.title = product.title;
@@ -42,6 +51,7 @@ class ProductItem {
     this.price = product.price;
     this.img = product.img;
   }
+
   render() {
     return `<div class="product__box">
               <a href="#">
@@ -64,11 +74,3 @@ class ProductItem {
 }
 
 let list = new ProductList();
-
-
-// const renderPage = list => {
-//   const productsList = list.map(item => renderProduct(item));
-//   document.querySelector('.product').innerHTML = productsList.join('');
-// }
-//
-// renderPage(products);

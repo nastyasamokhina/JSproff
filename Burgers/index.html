@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <link rel="stylesheet" href="style.css">
+    <title>Бургерная</title>
+  </head>
+  <body>
+
+      <div class="menu">
+        <p>Какой гамбургер Вы хотите?</p>
+        <div class="size">
+          <input type="radio" name="size" id="small" value="small" checked>
+          <label for="small">Маленький (50р. 20 кал.)</label>
+          <input type="radio" name="size" id="big" value="big">
+          <label for="big">Большой (100р. 40 кал.)</label>
+        </div>
+
+        <p>Добавьте начинку</p>
+        <div class="stuffing">
+          <input type="radio" name="stuffing" id="cheese" value="cheese" checked>
+          <label for="cheese">Сыр (10р. 20 кал.)</label>
+          <input type="radio" name="stuffing" id="salad" value="salad">
+          <label for="salad">Салат (20р. 5 кал.)</label>
+          <input type="radio" name="stuffing" id="potatoes" value="potatoes">
+          <label for="potatoes">Картофель (15р. 10 кал.)</label>
+        </div>
+
+        <p>Добавьте приправу или майонез</p>
+        <div class="topping">
+          <input type="checkbox" name="topping" id="spices" value="spices">
+          <label for="spices">Приправа (15р. 0 кал.)</label>
+          <input type="checkbox" name="topping" id="sous" value="sous">
+          <label for="sous">Майонез (20р. 5 кал.)</label>
+        </div>
+        <br>
+        <button type="submit">Посчитать стоимость</button>
+      </div>
+    <script src="menu.js"></script>
+  </body>
+</html>
