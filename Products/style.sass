@@ -24,27 +24,70 @@ body
   &__left_poiskIcon
     margin-left: 41px
   &__right
+    position: relative
     &_loginIcon
       margin-left: 25px
       margin-right: 25px
-    &_basket
-      position: relative
-      & span
-        display: inline-block
-        width: 19px
-        height: 19px
-        color: white
-        background: #EA6A47
-        border-radius: 50%
-        position: absolute
-        text-align: center
-        right: -8px
-        top: -19px
-        font-size: 12px
-        line-height: 19px
+
+.cartIconWrap
+  position: relative
+  & span
+    display: inline-block
+    width: 19px
+    height: 19px
+    color: white
+    background: #f16d7f
+    border-radius: 50%
+    position: absolute
+    text-align: center
+    right: -8px
+    top: -19px
+    font-size: 12px
+    line-height: 19px
+
 
 .product
   display: flex
   justify-content: space-around
   flex-wrap: wrap
-  margin-top: 40px
+  margin-top: 130px
+
+.basket
+  position: absolute
+  z-index: 3
+  right: 0
+  top: 37px
+  background: white
+  padding: 20px
+  border: 1px solid #ebebeb
+  border-radius: 3px
+  font-size: 18px
+  width: 600px
+
+.hidden
+  display: none
+
+.basketRow
+  display: grid
+  grid-template-columns: repeat(6, 1fr)
+  gap: 10px
+  margin-bottom: 10px
+  padding-bottom: 10px
+  &_grid
+    align-self: center
+    justify-self: center
+
+.basketHeader
+  font-weight: bold
+
+.basketTotal
+  font-weight: bold
+  text-align: right
+
+.buttonBasket
+  display: flex
+  align-items: center
+  justify-content: center
+  height: 30px
+  background: #ffffff
+  font-size: 20px
