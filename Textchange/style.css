@@ -1,0 +1,14 @@
+.content {
+  margin: 50px auto;
+  width: 550px
+}
+
+.text {
+  font-size: 18px;
+}
+
+.button {
+  margin: 30px auto;
+  display: flex;
+  justify-content: space-around;
+}

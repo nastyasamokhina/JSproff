@@ -1,0 +1,39 @@
+* {
+
+}
+.form {
+  margin-top: 50px;
+  margin-left: 50px;
+}
+
+li {
+  margin-bottom: 20px;
+}
+
+input {
+  margin-top: 5px;
+  padding: 5px 5px;
+  width: 200px;
+}
+
+.borderOk {
+  border: 3px solid limegreen;
+}
+
+.borderError {
+  border: 3px solid red;
+}
+
+.button {
+  margin-top: 20px;
+  background: teal;
+  color: aliceblue;
+  padding: 10px;
+  height: 40px;
+  border: none;
+}
+
+ul {
+  list-style-type: none;
+  padding: 0
+}
