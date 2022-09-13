@@ -1,0 +1,274 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@400;900&display=swap");
+@import url("https://fonts.googleapis.com/css2?family=Lato:wght@300&display=swap");
+* {
+  margin: 0;
+  font-family: "Lato", sans-serif;
+}
+
+html,
+body {
+  height: 100%;
+}
+
+@media (min-width: 1440px) {
+  .container {
+    max-width: 1140px;
+    margin: 0 auto;
+  }
+}
+
+header {
+  background: #231d63;
+  height: 70px;
+}
+
+.header__content {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  padding: 16px 18px;
+}
+
+.header__left_logo {
+  margin-right: 41px;
+}
+
+.search-form {
+  position: relative;
+  display: inline-block;
+}
+
+.logo {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.logo_img {
+  margin-right: 40px;
+}
+
+.counter {
+  position: relative;
+}
+
+.counter span {
+  display: inline-block;
+  width: 19px;
+  height: 19px;
+  color: white;
+  background: #f16d7f;
+  border-radius: 50%;
+  position: absolute;
+  text-align: center;
+  right: -8px;
+  top: -10px;
+  font-size: 12px;
+  line-height: 19px;
+}
+
+.cart-block {
+  position: absolute;
+  z-index: 3;
+  right: 10px;
+  top: 65px;
+  background: white;
+  padding: 10px;
+  border: 1px solid #ebebeb;
+  border-radius: 3px;
+  font-size: 14px;
+  width: 300px;
+}
+
+.cart-item {
+  display: flex;
+  justify-content: space-between;
+  margin: 10px 5px;
+  font-size: 16px;
+}
+
+.del-btn{
+  margin-top: 5px;
+  background-color: #231d63;
+  padding: 5px 15px;
+  border: 1px solid transparent;
+  color: #fafafa;
+  border-radius: 5px;
+  transition: all ease-in-out .4s;
+  cursor: pointer;
+}
+
+.del-btn:hover{
+  background-color: #fafafa;
+  color: #2f2a2d;
+  border: 1px solid #2f2a2d;
+}
+
+.product-bio{
+    display: flex;
+}
+
+.cart-item img{
+    align-self: flex-start;
+    margin-right: 15px;
+    width: 60px;
+}
+
+.product-single-price{
+    color: #474747;
+}
+
+.product-price{
+    margin-left: 30px;
+    font-size: 18px;
+}
+
+.product-desc{
+    max-width: 150px;
+}
+
+.product-quantity {
+    margin-top: 15px;
+    font-size: 0.75em;
+}
+
+.right-block{
+    text-align: right;
+}
+
+main {
+  min-height: 100%;
+  display: flex;
+  flex-direction: column;
+}
+
+.products {
+  display: flex;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  margin-bottom: 30px;
+}
+
+.product-item {
+  margin-top: 30px;
+  background: #F8F8F8;
+  width: 359px;
+  position: relative;
+}
+
+.desc {
+  text-align: left;
+  text-decoration: none;
+  padding: 17px 25px;
+}
+
+.product_name {
+  font-size: 13px;
+  line-height: 16px;
+  color: #000000;
+  text-decoration: none;
+}
+
+.product_price {
+  margin-top: 10px;
+  font-size: 16px;
+  line-height: 19px;
+  color: #F16D7F;
+}
+
+.product-item:hover img {
+  filter: brightness(50%);
+}
+
+.product-item:hover .product_add {
+  display: block;
+}
+
+.product_add {
+  display: none;
+  position: absolute;
+  left: 110px;
+  top: 187px;
+  justify-content: center;
+  align-items: center;
+  background: #F16D7F;
+}
+
+.product_add button {
+  background: none;
+  color: white;
+  display: flex;
+  align-items: center;
+  padding: 10px 14px;
+  font-size: 14px;
+}
+
+.product_add button img {
+  width: 26px;
+  height: 24px;
+  margin-right: 11px;
+}
+
+footer {
+  background: #231d63;
+  margin: 0;
+}
+
+.benefits {
+  background-color: #231d63;
+  display: flex;
+  flex-wrap: wrap;
+  padding-top: 46px;
+  padding-bottom: 36px;
+}
+
+.benefits__forma {
+  width: 360px;
+  margin: 0 auto;
+  background-color: #231d63;
+  text-align: center;
+  margin-bottom: 46px;
+}
+
+.benefits__heading {
+  font-size: 20px;
+  line-height: 24px;
+  color: #FBFBFB;
+  font-weight: normal;
+  margin-top: 27px;
+  margin-bottom: 14px;
+}
+
+.benefits__text {
+  font-size: 14px;
+  line-height: 17px;
+  color: #FBFBFB;
+  font-weight: 300;
+}
+
+.benefits__img {
+  height: 40px;
+  width: auto;
+}
+
+.address {
+  background: #231d63;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.address__icon {
+  margin-bottom: 30px;
+}
+
+.address__icon a {
+  padding: 3.5px;
+}
+
+.address__text {
+  color: #fffffF;
+  font-size: 16px;
+  line-height: 19px;
+  margin-bottom: 9px;
+}

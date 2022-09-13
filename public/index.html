@@ -1,0 +1,77 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Catalog</title>
+    <!-- <link rel="stylesheet" href="css/normalize.css"> -->
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+<div id="app">
+    <header>
+      <div class="header__content container">
+        <div class="logo">
+          <img class="logo_img" src="img/logo_2.png" alt="">
+          <filter-el></filter-el>
+        </div>
+        <cart ref="cart"></cart>
+
+      </div>
+    </header>
+
+    <main>
+      <div class="container">
+        <products ref="products"></products>
+        <error ref="error"></error>
+      </div>
+    </main>
+
+    <footer>
+      <div class="benefits container">
+          <div class="benefits__forma">
+            <img class="benefits__img" src="img/form1.png" alt="">
+            <h4 class="benefits__heading">Free Delivery</h4>
+            <p class="benefits__text">Worldwide delivery on all.
+              Authorit tively morph <br> next-generation innov
+              tion with extensive models.</p>
+          </div>
+          <div class="benefits__forma">
+            <img class="benefits__img" src="img/form2.png" alt="">
+            <h4 class="benefits__heading">Sales & discounts</h4>
+            <p class="benefits__text">Worldwide delivery on all.
+              Authorit tively morph <br> next-generation innov
+              tion with extensive models.</p>
+          </div>
+          <div class="benefits__forma">
+            <img class="benefits__img" src="img/form3.png" alt="">
+            <h4 class="benefits__heading">Quality assurance</h4>
+            <p class="benefits__text">Worldwide delivery on all.
+              Authorit tively morph <br> next-generation innov
+              tion with extensive models.</p>
+          </div>
+      </div>
+
+
+      <div class="address container">
+          <div class="address__icon">
+            <a href="#"><img src="img/facebook.png" alt=""></a>
+            <a href="#"><img src="img/telegram.png" alt=""></a>
+            <a href="#"><img src="img/pinterest.png" alt=""></a>
+            <a href="#"><img src="img/twitter.png" alt=""></a>
+          </div>
+          <div class="address__text">
+            <p>&copy 2021  Brand  All Rights Reserved.</p>
+          </div>
+      </div>
+    </footer>
+
+</div>
+    <script defer src="https://use.fontawesome.com/releases/v5.7.2/js/all.js" integrity="sha384-0pzryjIRos8mFBWMzSSZApWtPl/5++eIfzYmTgBBmXYdhvxPc+XcFEk+zJwDgWbP" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/vue/dist/vue.js"></script>
+    <script src="js/CartComp.js"></script>
+    <script src="js/ProducComp.js"></script>
+    <script src="js/FilterComp.js"></script>
+    <script src="js/ErrorComp.js"></script>
+    <script src="js/main.js"></script>
+</body>
+</html>
